@@ -1,14 +1,35 @@
-## Getting Started
+## Myracle Whip
+Lyric search app
+# Demo
+# Demo 
+Watch the video below
+[![Watch the video](https://imgur.com/vgOAK5M.jpg)](https://www.youtube.com/watch?v=D_VWF8wf-8I&feature=youtu.be)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+# How to use
+Run the jar with java in the terminal
+```
+java -jar myracle-whip.jar
+```
+Enter song name and artist name
 
-## Folder Structure
+```
+Enter song name:
+get lucky
+Enter artist name:
+daft punk
+```
+Link and Lyrics will print below
 
-The workspace contains two folders by default, where:
+```
+Link to website source: https://azlyrics.com/lyrics/daftpunk/getlucky.html
+Like the legend of the Phoenix
+All ends with beginnings
+What keeps the planets spinning (uh)
+The force from the beginning
+...
+```
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-## Dependency Management
-
-The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-pack/blob/master/release-notes/v0.9.0.md#work-with-jar-files-directly).
+Features to add
+- GUI
+- Scraping from genius.com rather than azlyrics.com since Genius has more songs
+- Link to the song on youtube or spotify
