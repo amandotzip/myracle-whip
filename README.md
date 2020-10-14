@@ -1,6 +1,6 @@
 ## Myracle Whip
 Lyric search app
-# Demo
+
 # Demo 
 Watch the video below
 [![Watch the video](https://imgur.com/vgOAK5M.jpg)](https://www.youtube.com/watch?v=D_VWF8wf-8I&feature=youtu.be)
