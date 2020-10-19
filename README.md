@@ -3,7 +3,7 @@ Lyric search app
 
 # Demo 
 Watch the video below
-[![Watch the video](https://imgur.com/vgOAK5M.jpg)](https://www.youtube.com/watch?v=D_VWF8wf-8I&feature=youtu.be)
+[![Watch the video](https://imgur.com/vgOAK5M.jpg)](https://youtu.be/HU49-qlHBAY)
 
 # How to use
 Run the jar with java in the terminal
@@ -33,4 +33,3 @@ Features to add
 - GUI
 - Scraping from genius.com rather than azlyrics.com since Genius has more songs
 - Link to the song on youtube or spotify
-JKJNB NKLKBVBGHNGBVCXDFRTGFVCFDCDCDCERRTGHJ
