@@ -3,7 +3,7 @@ import java.net.URLConnection;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-/*
+/** 
  * Creates a SongRequest object that has a Song Name,
  * artist name, URL, content, lyricsList
  * */
@@ -15,7 +15,7 @@ public class SongRequest {
     private String content;// Raw HTML Content unprased
     private ArrayList<String> lyricsList;// list of lyrics line by line
 
-    /* Song request constructor. */
+    /**  Song request constructor. */
     public SongRequest(String songName, String artistName) {
         this.songName = parseText(songName);
         this.artistName = parseText(artistName);
@@ -24,15 +24,17 @@ public class SongRequest {
         this.lyricsList = getLyricsList(content);
     }
 
+    /** Returns current objects song name */
     public String getSongName() {
         return songName;
     }
 
+    /** Returns current objects artist name */
     public String getArtistName() {
         return artistName;
     }
 
-    /* removes special chars and sets to lower */
+    /**  removes special chars and sets to lower */
     public String parseText(String text) {
         text = text.replaceAll("[^a-zA-Z0-9_-]", "");
         text = text.toLowerCase();
@@ -45,7 +47,7 @@ public class SongRequest {
         return "https://azlyrics.com/lyrics/" + this.artistName + "/" + this.songName + ".html";
     }
 
-    /* Gets raw html text */
+    /**  Gets raw html text */
     public String getLyricsURLContent(String URL) {
         // gets website HTML from URL
         String content = null;
